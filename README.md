@@ -1,6 +1,6 @@
 # Projeto: Booking + Hotels.com Scraper
 
-![Descrição da imagem](Selenium_hotel.png)
+![resultados do scrapers](Selenium_hotel.png)
 
 ## Descrição:
 -----------
