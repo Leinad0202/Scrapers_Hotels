@@ -85,6 +85,7 @@ Screenshots of captchas or blocks will be saved in app/data/.
 ## License:
 
 Personal use. Modify and adapt as you wish. Not responsible for commercial use or violation of site terms.
+
 |
 |
 |
@@ -96,8 +97,6 @@ Personal use. Modify and adapt as you wish. Not responsible for commercial use o
 
 ## portuguese
 # Projeto: Booking + Hotels.com Scraper
-
-![resultados do scrapers](Selenium_hotel.png)
 
 ## Descrição:
 -----------
