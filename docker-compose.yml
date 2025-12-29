@@ -1,0 +1,9 @@
+services:
+  scraper:
+    build: .
+    container_name: booking_scraper
+    volumes:
+      - ./app/data:/app/data
+    shm_size: 2gb
+    environment:
+      - TZ=America/Sao_Paulo

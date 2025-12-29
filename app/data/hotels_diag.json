@@ -1,0 +1,21 @@
+{
+  "found_selector": null,
+  "markers": {
+    "section[data-stid*='property-listing']": false,
+    "li[data-stid*='property-listing']": false,
+    "div[data-testid*='property-card']": false,
+    "article[data-testid*='property-card']": false,
+    "div[class*='property-card']": false,
+    "div[class*='sr_item']": false,
+    "div[class*='hotelCard']": false,
+    "div[class*='hotel-card']": false,
+    "h3": false,
+    "h3[data-stid*='content-hotel-title']": false,
+    "h3[data-testid='property-name']": false,
+    "a[data-stid='open-hotel-information'] h3": false,
+    "span[data-stid*='price-lockup']": false,
+    "span[data-stid*='price-lockup-text']": false,
+    "div[class*='price']": false,
+    "span[class*='price']": false
+  }
+}
