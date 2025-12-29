@@ -23,6 +23,8 @@ app/
 
 ├── scrapers/
 
+|   ├── __init __.py        # Marca a pasta como pacote Python
+
 │   ├── booking.py         # Lógica de scraping do Booking.com via Selenium
 
 │   ├── hotels.py          # Scraper do Hotels.com via API
