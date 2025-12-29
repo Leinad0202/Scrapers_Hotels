@@ -94,6 +94,8 @@ def build_search_url(destino: str, checkin=None, checkout=None):
         "no_rooms": 1,
         "group_children": 0,
         "selected_currency": "BRL",
+        "order": "bayesian_review_score",  # MELHORES AVALIAÇÕES
+        # "price_range": 1  # opcional, se quiser limitar faixa de preço baixa
     }
 
     return "https://www.booking.com/searchresults.html?" + urlencode(params)
@@ -149,7 +151,7 @@ def scrape_booking(
 
     try:
         driver = open_driver(headless, user_agent)
-        wait = WebDriverWait(driver, 20)
+        wait = WebDriverWait(driver, 30)
 
         url = build_search_url(destino, checkin, checkout)
         logger.info(f"Abrindo: {url}")
