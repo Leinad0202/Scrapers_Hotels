@@ -69,14 +69,30 @@ docker compose build --no-cache
 docker compose run scraper Roma
 ```
 
+## Results:
 
-;███████ ███████ ██      ███████ ███    ██ ██ ██    ██ ███    ███.
-;██      ██      ██      ██      ████   ██ ██ ██    ██ ████  ████.
-;███████ █████   ██      █████   ██ ██  ██ ██ ██    ██ ██ ████ ██.
-;     ██ ██      ██      ██      ██  ██ ██ ██ ██    ██ ██  ██  ██.     
-;███████ ███████ ███████ ███████ ██   ████ ██  ██████  ██      ██.              
+Final data will be saved in app/data/results.json.
 
+Screenshots of captchas or blocks will be saved in app/data/.
 
+## Notes:
+
+-Booking.com is scraped via Selenium, making the process slower but reliable.
+-Hotels.com uses an internal API that may change or block bots. The project attempts to discover the API, but blocks or changes may prevent scraping.
+-For future development: integrate api_probe and api_discovery more robustly to handle Hotels.com API changes.
+-The ENABLE_HOTELS variable in config.py allows enabling or disabling Hotels.com scraping.
+
+## License:
+
+Personal use. Modify and adapt as you wish. Not responsible for commercial use or violation of site terms.
+|
+|
+|
+|
+|
+|
+|
+|
 
 ## portuguese
 # Projeto: Booking + Hotels.com Scraper
