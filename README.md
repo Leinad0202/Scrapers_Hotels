@@ -69,6 +69,8 @@ docker compose build --no-cache
 docker compose run scraper Roma
 ```
 
+__obs: por padrão ele busca os preços mais baixos com as melhores notas em quartos para 2 pessoas, qualquer modificação nessa filtragem ir em booking.py e procurar def build_search_url para mudar os parametros__
+
 ## Results:
 
 Final data will be saved in app/data/results.json.
@@ -158,6 +160,8 @@ docker compose down --volumes --remove-orphans
 docker compose build --no-cache
 docker compose run scraper Roma
 ```
+
+__Note: By default, the scraper searches for the lowest prices with the highest ratings for rooms for 2 guests. Any modifications to this filtering should be done in booking.py by editing the build_search_url function.__
 
 ##Resultados:
 ------------
