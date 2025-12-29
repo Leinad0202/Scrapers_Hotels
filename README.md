@@ -14,15 +14,25 @@ Este projeto automatiza a coleta de dados de hotéis para destinos específicos 
 ## Estrutura do Projeto:
 ---------------------
 app/
+
 │
+
 ├── main.py                # Script principal para rodar o scraping
+
 ├── utils.py               # Funções auxiliares, como salvar JSON
+
 ├── scrapers/
+
 │   ├── booking.py         # Lógica de scraping do Booking.com via Selenium
+
 │   ├── hotels.py          # Scraper do Hotels.com via API
+
 │   ├── api_probe.py       # Testa se a API do Hotels.com está acessível
+
 │   ├── api_discovery.py   # Descobre a API do Hotels.com em tempo real
+
 │   └── config.py          # Configurações e constantes (URLs, headers, payloads)
+
 └── data/                  # Pasta para salvar resultados e screenshots
 
 ## Dependências:
