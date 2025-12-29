@@ -89,7 +89,10 @@ Screenshots of captchas or blocks will be saved in app/data/.
 
 Personal use. Modify and adapt as you wish. Not responsible for commercial use or violation of site terms.
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
 
 ## portuguese
 # Projeto: Booking + Hotels.com Scraper
