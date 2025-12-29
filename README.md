@@ -1,5 +1,7 @@
 # Projeto: Booking + Hotels.com Scraper
 
+![Descrição da imagem](Selenium_hotel.png)
+
 ## Descrição:
 -----------
 Este projeto automatiza a coleta de dados de hotéis para destinos específicos usando duas abordagens:
