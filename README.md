@@ -69,7 +69,8 @@ docker compose build --no-cache
 docker compose run scraper Roma
 ```
 
-__obs: por padrão ele busca os preços mais baixos com as melhores notas em quartos para 2 pessoas, qualquer modificação nessa filtragem ir em booking.py e procurar def build_search_url para mudar os parametros__
+__Note: By default, the scraper searches for the lowest prices with the highest ratings for rooms for 2 guests. Any modifications to this filtering should be done in booking.py by editing the build_search_url function.__
+
 
 ## Results:
 
@@ -161,20 +162,20 @@ docker compose build --no-cache
 docker compose run scraper Roma
 ```
 
-__Note: By default, the scraper searches for the lowest prices with the highest ratings for rooms for 2 guests. Any modifications to this filtering should be done in booking.py by editing the build_search_url function.__
+__obs: por padrão ele busca os preços mais baixos com as melhores notas em quartos para 2 pessoas, qualquer modificação nessa filtragem ir em booking.py e procurar def build_search_url para mudar os parametros__
 
-##Resultados:
+## Resultados:
 ------------
 - Dados finais serão salvos em `app/data/results.json`.
 - Screenshots de captchas ou bloqueios serão salvos em `app/data/`.
 
-##Notas:
+## Notas:
 -------
 - Booking.com é raspado via Selenium, por isso o processo é mais lento, mas confiável.
 - Hotels.com usa uma API interna que pode mudar ou bloquear bots. O projeto tenta descobrir a API, mas bloqueios ou mudanças podem impedir o scraping.
 - Para desenvolvimento futuro: integrar `api_probe` e `api_discovery` de forma mais robusta para lidar com mudanças na API do Hotels.com.
 - Variável `ENABLE_HOTELS` em `config.py` permite ativar ou desativar o scraping do Hotels.com.
 
-###Licença:
+### Licença:
 ---------
 Uso pessoal. Modifique e adapte como desejar. Não se responsabiliza por uso comercial ou violação de termos de sites.
